@@ -1,2 +1,2 @@
 # SE-FSDet
-The code and dataset will be released soon.
+The code and data split will be released soon.
