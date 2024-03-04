@@ -1,0 +1,4 @@
+timm
+einops
+sympy
+scikit-learn
