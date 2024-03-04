@@ -1,2 +1,2 @@
-# SE-FSDet
+# SAE-FSDet
 The code and data split will be released soon.
