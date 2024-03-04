@@ -37,43 +37,43 @@ data<br>
 └── few_shot_ann<br>
 ### DIOR dataset
 For DIOR dataset, you can download DIOR dataset from its official [website](http://www.escience.cn/people/JunweiHan/DIOR.html) and prepare the data folder like this.
-DIOR
-├── Annotations
-│   ├──00001.xml
-│   ├──00002.xml
-│   ├──*.xml
-├── ImageSets
-│   ├──Main
-│   │   ├── train.txt
-│   │   ├── val.txt
-│   │   ├── trainval.txt
-│   │   ├── test.txt
-├── JPEGImages
-└──     *.jpg
+DIOR<br>
+├── Annotations<br>
+│   ├──00001.xml<br>
+│   ├──00002.xml<br>
+│   ├──*.xml<br>
+├── ImageSets<br>
+│   ├──Main<br>
+│   │   ├── train.txt<br>
+│   │   ├── val.txt<br>
+│   │   ├── trainval.txt<br>
+│   │   ├── test.txt<br>
+├── JPEGImages<br>
+└──     *.jpg<br>
 
 ### NWPU VHR-10 dataset
 For NWPU VHR-10 dataset, you can download it from [here](https://gcheng-nwpu.github.io/).The original dataset was not divided into training and validation sets. As a result, we uploaded our train/val splits in data/NWPU VHR-10 dataset/Main. The final folder layout should look like this.
-NWPU VHR-10 dataset
-├── ground truth
-├── Main
-├── negative image set
-├── positive image set
-└── readme.txt
+NWPU VHR-10 dataset<br>
+├── ground truth<br>
+├── Main<br>
+├── negative image set<br>
+├── positive image set<br>
+└── readme.txt<br>
 ### Few-shot annotations
 The few_shot_ann is our few-shot data splits. You can unzip the few_shot_ann.zip in data folder and the final layout will be look like this.
-few_shot_ann
-├── dior
-│   ├── benchmark_10shot
-│   ├── benchmark_1shot
-│   ├── benchmark_20shot
-│   ├── benchmark_2shot
-│   ├── benchmark_3shot
-│   └── benchmark_5shot
-└── vhr10
-    ├── benchmark_10shot
-    ├── benchmark_20shot
-    ├── benchmark_3shot
-    └── benchmark_5shot
+few_shot_ann<br>
+├── dior<br>
+│   ├── benchmark_10shot<br>
+│   ├── benchmark_1shot<br>
+│   ├── benchmark_20shot<br>
+│   ├── benchmark_2shot<br>
+│   ├── benchmark_3shot<br>
+│   └── benchmark_5shot<br>
+└── vhr10<br>
+    ├── benchmark_10shot<br>
+    ├── benchmark_20shot<br>
+    ├── benchmark_3shot<br>
+    └── benchmark_5shot<br>
 
 
 ## Getting Started
