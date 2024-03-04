@@ -31,10 +31,10 @@ pip install -v -e .
 ```
 ## Dataset Preparation
 All the data are organized in data folder. The data folder layout should look like this.
-data  
-├── DIOR  
-├── NWPU VHR-10 dataset  
-└── few_shot_ann  
+data<br>
+├── DIOR<br>
+├── NWPU VHR-10 dataset<br>  
+└── few_shot_ann<br>
 ### DIOR dataset
 For DIOR dataset, you can download DIOR dataset from its official [website](http://www.escience.cn/people/JunweiHan/DIOR.html) and prepare the data folder like this.
 DIOR
