@@ -33,7 +33,7 @@ pip install -v -e .
 All the data are organized in data folder. The data folder layout should look like this.
 data<br>
 ├── DIOR<br>
-├── NWPU VHR-10 dataset<br>  
+├── NWPU VHR-10 dataset<br>
 └── few_shot_ann<br>
 ### DIOR dataset
 For DIOR dataset, you can download DIOR dataset from its official [website](http://www.escience.cn/people/JunweiHan/DIOR.html) and prepare the data folder like this.
@@ -92,7 +92,7 @@ python tools/detection/train.py configs/detection/SAE-FSDet/dior/split1/SAE-FSDe
 # multi gpu
 bash tools/detection/dist_train.sh configs/detection/SAE-FSDet/dior/split1/SAE-FSDet_r101_fpn_dior-split1_20shot_finetuning.py ${GPU_NUM}
 ```
-Note that if you use multi gpus, you should modify the learning rate and training iters based on [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour] (https://arxiv.org/abs/1706.02677). All of our experiments are running in a single gpu.
+Note that if you use multi gpus, you should modify the learning rate and training iters based on [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://arxiv.org/abs/1706.02677). All of our experiments are running in a single gpu.
 ### Test a model
 You can test a trained model by using the following commands:
 ```Shell
