@@ -30,13 +30,13 @@ pip install -r requirements.txt
 pip install -v -e .
 ```
 ## Dataset Preparation
-All the data are organized in data folder. The data folder layout should look like this.
+All the data are organized in data folder. The data folder layout should look like this.data<br>
 data<br>
 ├── DIOR<br>
 ├── NWPU VHR-10 dataset<br>
 └── few_shot_ann<br>
 ### DIOR dataset
-For DIOR dataset, you can download DIOR dataset from its official [website](http://www.escience.cn/people/JunweiHan/DIOR.html) and prepare the data folder like this.
+For DIOR dataset, you can download DIOR dataset from its official [website](http://www.escience.cn/people/JunweiHan/DIOR.html) and prepare the data folder like this.data<br>
 DIOR<br>
 ├── Annotations<br>
 │   ├──00001.xml<br>
@@ -52,7 +52,7 @@ DIOR<br>
 └──     *.jpg<br>
 
 ### NWPU VHR-10 dataset
-For NWPU VHR-10 dataset, you can download it from [here](https://gcheng-nwpu.github.io/).The original dataset was not divided into training and validation sets. As a result, we uploaded our train/val splits in data/NWPU VHR-10 dataset/Main. The final folder layout should look like this.
+For NWPU VHR-10 dataset, you can download it from [here](https://gcheng-nwpu.github.io/).The original dataset was not divided into training and validation sets. As a result, we uploaded our train/val splits in data/NWPU VHR-10 dataset/Main. The final folder layout should look like this. data<br>
 NWPU VHR-10 dataset<br>
 ├── ground truth<br>
 ├── Main<br>
