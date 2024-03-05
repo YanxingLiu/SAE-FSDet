@@ -108,7 +108,7 @@ python tools/detection/test.py configs/detection/SAE-FSDet/dior/split1/SAE-FSDet
         --eval mAP
 ```
 ## Acknowledgement
-This repo is based on the open-source [mmfewshot](https://github.com/open-mmlab/mmfewshot) project that is contributed by researchers and engineers from various colleges and companies. that is contributed by researchers and engineers from various colleges and companies. We appreciate all the contributors who implement their methods or add new features of mmfewshot.
+This repo is based on the open-source [mmfewshot](https://github.com/open-mmlab/mmfewshot) project that is contributed by researchers and engineers from various colleges and companies. We appreciate all the contributors who implement their methods or add new features of mmfewshot.
 
 ## Citation
 ```
