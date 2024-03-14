@@ -1,5 +1,5 @@
 # Few-Shot Object Detection in Remote Sensing Images via Label-Consistent Classifier and Gradual Regression
-Code for reproducing the results in our paper [Few-Shot Object Detection in Remote Sensing Images via Label-Consistent Classifier and Gradual Regression](https://ieeexplore.ieee.org/document/10445268). Our code is based on the open-source project [mmfewshot](https://github.com/open-mmlab/mmfewshot).
+Code for reproducing the results in our TGRS-2024 paper [Few-Shot Object Detection in Remote Sensing Images via Label-Consistent Classifier and Gradual Regression](https://ieeexplore.ieee.org/document/10445268). Our code is based on the open-source project [mmfewshot](https://github.com/open-mmlab/mmfewshot).
 <p align=center><img src="resources/SAE-FSDet.jpg"/></p>
 
 ## Requirements
