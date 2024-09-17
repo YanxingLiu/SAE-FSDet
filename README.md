@@ -37,7 +37,7 @@ data<br>
 ├── NWPU VHR-10 dataset<br>
 └── few_shot_ann<br>
 ### DIOR dataset
-For DIOR dataset, you can download DIOR dataset from its official [website](http://www.escience.cn/people/JunweiHan/DIOR.html) and prepare the data folder like this.data<br>
+For DIOR dataset, you can download DIOR dataset from its official [website](http://www.escience.cn/people/JunweiHan/DIOR.html) and prepare the data folder like this. Note that the JPEGImages contain all images of JPEGImages-train and JPEGImages-test.
 DIOR<br>
 ├── Annotations<br>
 │   ├──00001.xml<br>
