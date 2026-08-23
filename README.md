@@ -1,3 +1,5 @@
+
+
 # Few-Shot Object Detection in Remote Sensing Images via Label-Consistent Classifier and Gradual Regression
 Code for reproducing the results in our TGRS-2024 paper [Few-Shot Object Detection in Remote Sensing Images via Label-Consistent Classifier and Gradual Regression](https://ieeexplore.ieee.org/document/10445268). Our code is based on the open-source project [mmfewshot](https://github.com/open-mmlab/mmfewshot).
 <p align=center><img src="resources/SAE-FSDet.jpg"/></p>
@@ -45,10 +47,10 @@ DIOR<br>
 │   ├──*.xml<br>
 ├── ImageSets<br>
 │   ├──Main<br>
-│   │   ├── train.txt<br>
-│   │   ├── val.txt<br>
-│   │   ├── trainval.txt<br>
-│   │   ├── test.txt<br>
+│   │   ├── train.txt<br>
+│   │   ├── val.txt<br>
+│   │   ├── trainval.txt<br>
+│   │   ├── test.txt<br>
 ├── JPEGImages<br>
 └──     *.jpg<br>
 
@@ -105,7 +107,7 @@ bash tools/detection/dist_test.sh ${CONFIG_FILE} ${CHECKPOINT_FILE} ${GPU_NUM} -
 For example, test the performance of 20-shot model.
 ```Shell
 python tools/detection/test.py configs/detection/SAE-FSDet/dior/split1/SAE-FSDet_r101_fpn_dior-split1_20shot_finetuning.py \
-        models/SAE-FSDet_r101_fpn_dior-split1_20shot_finetuning/latest.pth \
+        work_dirs/SAE-FSDet_r101_fpn_dior-split1_20shot_finetuning/latest.pth \
         --eval mAP
 ```
 ## Acknowledgement
